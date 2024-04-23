@@ -7,6 +7,9 @@ const aughtController = {
     },
     register: function(req, res) {
         res.render("register")
+    },
+    profile: function(req, res) {
+        res.render('profile')
     }
 }
 module.exports = aughtController
